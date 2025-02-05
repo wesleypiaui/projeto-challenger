@@ -2,7 +2,7 @@ const nomes = [];
 
 // Função para adicionar nome à lista
 function adicionarAmigo() {
-    const input = document.getElementById('amigo'); // Corrigido para usar o ID correto do HTML
+    const input = document.getElementById('amigo'); 
     const nome = input.value.trim();
 
     if (nome === "") {
@@ -18,8 +18,8 @@ function adicionarAmigo() {
 
 // Função para atualizar a lista exibida
 function atualizarLista() {
-    const lista = document.getElementById('listaAmigos'); // Corrigido para usar o ID correto do HTML
-    lista.innerHTML = ""; // Limpa a lista antes de recriá-la
+    const lista = document.getElementById('listaAmigos');
+    lista.innerHTML = ""; 
 
     nomes.forEach((nome, index) => {
         const item = document.createElement('li');
