@@ -1,8 +1,8 @@
 const nomes = [];
 
 // Função para adicionar nome à lista
-function adicionarNome() {
-    const input = document.getElementById('nome');
+function adicionarAmigo() {
+    const input = document.getElementById('amigo'); // Corrigido para usar o ID correto do HTML
     const nome = input.value.trim();
 
     if (nome === "") {
@@ -18,7 +18,7 @@ function adicionarNome() {
 
 // Função para atualizar a lista exibida
 function atualizarLista() {
-    const lista = document.getElementById('lista');
+    const lista = document.getElementById('listaAmigos'); // Corrigido para usar o ID correto do HTML
     lista.innerHTML = ""; // Limpa a lista antes de recriá-la
 
     nomes.forEach((nome, index) => {
@@ -41,5 +41,5 @@ function sortearAmigo() {
 
     // Exibe o resultado
     const resultado = document.getElementById('resultado');
-    resultado.textContent = `Amigo Secreto: ${amigoSorteado}`;
+    resultado.innerHTML = `<li>Amigo Secreto: ${amigoSorteado}</li>`;
 }
