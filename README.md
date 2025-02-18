@@ -44,6 +44,22 @@ Este projeto ajuda a organizar sorteios de amigo secreto, garantindo que ningué
    ```bash
    node sorteio.js
    ```
+Este é um guia para usar o aplicativo **Amigo Secreto**.
+
+## 1. Adicione os participantes
+Digite o nome dos participantes no campo e clique no botão "Adicionar".
+![Passo 1 - Adicionar Participantes](https://github.com/user-attachments/assets/da93721e-1f78-4b9f-b546-715d17dad011)
+
+
+## 2. Veja a lista de participantes
+Após adicionar, os nomes aparecerão na lista abaixo.
+![Passo 2 - Lista de Participantes](https://github.com/user-attachments/assets/4e54d633-6720-43dc-9df0-8a427d96513e)
+
+
+## 3. Realize o sorteio
+Clique no botão "Sortear amigo" para ver os pares sorteados.
+![Passo 3 - Sorteio](https://github.com/user-attachments/assets/5ffb8a15-54be-481e-80f1-9a0dc8b95eea)
+
 
 ---
 
